@@ -9,3 +9,5 @@ vnoremap < <gv
 vnoremap > >gv
 
 vnoremap y "+ygv<esc>
+
+imap jj <Esc>
