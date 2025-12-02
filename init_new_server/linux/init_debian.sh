@@ -16,7 +16,7 @@ curl https://gitee.com/RubyMetric/chsrc/raw/main/tool/installer.sh | bash
 chsrc set debian
 
 # install common tools
-apt install -y git vim tmux fish btop 
+apt install -y git vim tmux fish btop p7zip-full tree 
 echo "set-option -g default-shell /usr/bin/fish  # 或者你想要的任何其他 shell" >> ~/.tmux.conf
 
 # install zoxide
@@ -26,10 +26,6 @@ echo "zoxide init fish | source" >> ~/.config/fish/config.fish
 # install golang
 # ref: https://github.com/Jrohy/go-install
 bash -c "source <(curl -L https://go-install.netlify.app/install.sh)"
-
-# TIP: need reboot to take effect
-# install lazygit by go
-go install github.com/jesseduffield/lazygit@latest
 
 # clone config repo
 mkdir -p ~/.config/xuhe
