@@ -30,5 +30,7 @@ nnoremap go o<ESC>k
 
 " 用 Ctrl+k 替代 Ctrl+u (向上滚动)
 nnoremap <C-k> <C-u>
+vnoremap <C-k> <C-u>
 " (可选) 用 Ctrl+j 替代 Ctrl+d (向下滚动)
 nnoremap <C-j> <C-d>
+vnoremap <C-j> <C-d>
