@@ -1,2 +1,2 @@
 # install claude code
-npm i @anthropic-ai/claude-code
+npm install -g @anthropic-ai/claude-code
