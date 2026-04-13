@@ -34,5 +34,4 @@ git clone https://github.com/xuhe2/config.git
 # config vim
 
 # log
-echo "init done"
-echo "!!!reboot to take effect"
+echo "Init done, Restart shell"
