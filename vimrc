@@ -1,3 +1,7 @@
+set fileencodings=utf-8,gbk,gb2312,gb18030,cp936
+set encoding=utf-8
+set termencoding=utf-8
+
 syntax on
 
 nnoremap y "+y
