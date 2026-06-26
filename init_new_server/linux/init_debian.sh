@@ -21,6 +21,7 @@ echo "set-option -g default-shell /usr/bin/fish  # 或者你想要的任何其�
 
 # install zoxide
 apt install -y zoxide
+mkdir -p ~/.config/fish
 echo "zoxide init fish | source" >> ~/.config/fish/config.fish
 
 # install golang
