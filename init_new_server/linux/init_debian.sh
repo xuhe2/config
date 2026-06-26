@@ -26,6 +26,7 @@ echo "zoxide init fish | source" >> ~/.config/fish/config.fish
 
 # install golang
 # ref: https://github.com/Jrohy/go-install
+# 需要使用 fish_add_path /usr/local/go/bin 配置一下fish变量
 bash -c "source <(curl -L https://go-install.netlify.app/install.sh)"
 
 # clone config repo
